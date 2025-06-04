@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Solvira | Wear the Sun</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; }
+    header { display: flex; justify-content: space-between; padding: 20px; background: #fff8f0; }
+    nav a { margin: 0 15px; text-decoration: none; color: #ff7f50; font-weight: bold; }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 0 0 5px rgba(0,0,0,0.7);
+      text-align: center;
+      padding: 0 20px;
+    }
+    .hero h1 { font-size: 3rem; margin-bottom: 20px; }
+    .hero button {
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      background-color: #ff7f50;
+      border: none;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .hero button:hover { background-color: #e76b3b; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo" style="font-size: 1.5rem; color: #ff7f50; font-weight: bold;">Solvira</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Lookbook</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <h1>Wear the Sun</h1>
+    <button>Shop Now</button>
+  </section>
+</body>
+</html>
